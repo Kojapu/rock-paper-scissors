@@ -13,3 +13,6 @@ function getComputerChoice() {
 function getHumanChoice() {
     return prompt("rock, paper, scissor?", "rock").toLowerCase();
 }
+
+let humanScore = 0;
+let computerScore = 0;
