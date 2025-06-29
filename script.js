@@ -55,4 +55,12 @@ function playGame() {
     playRound(humanSelection, computerSelection);
     playRound(humanSelection, computerSelection);
     playRound(humanSelection, computerSelection);
+
+    if (computerScore > humanScore) {
+        console.log("You loose the whole game.")
+    } else if (humanScore > computerScore) {
+        console.log("You win the whole game!")
+    } else {
+        console.log("It's a draw!")
+    }
 }
