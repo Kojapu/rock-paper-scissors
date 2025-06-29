@@ -2,10 +2,10 @@ function getComputerChoice() {
     let random = Math.random();
 
     if (random < 1/3) {
-        choice = "rock";
+        return choice = "rock";
     } else if (random < 2/3) {
-        choice = "paper";
+        return choice = "paper";
     } else {
-        choice = "scissor";
+        return choice = "scissor";
     }
 }
