@@ -11,5 +11,5 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
-    return prompt("rock, paper, scissor?", "rock")
+    return prompt("rock, paper, scissor?", "rock").toLowerCase();
 }
